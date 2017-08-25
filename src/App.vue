@@ -16,11 +16,13 @@
   import Footer from './components/Shared/Footer.vue'
   import Servers from './components/Server/Servers.vue'
   import ServerDetails from './components/Server/ServerDetails.vue'
+  import User from './components/user/User.vue'
 
   export default {
     components: {
       appHeader: Header,
       Servers,
+      User,
       'app-server-details': ServerDetails,
       'app-footer': Footer
     }
