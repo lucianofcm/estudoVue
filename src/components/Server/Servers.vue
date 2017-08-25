@@ -2,7 +2,8 @@
   <div class="col-xs-12 col-sm-6">
     <ul class="list-group">
       <app-server
-        v-for="server in servers" :key="server.id"
+        v-for="server in servers"
+        :key="server.id"
         :server="server"></app-server>
     </ul>
   </div>

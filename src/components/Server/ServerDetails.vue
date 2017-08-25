@@ -22,6 +22,7 @@
         this.server.status = 'Normal'
       }
     },
+    /* Listerner criado assim que a instância desse componente é criada. Fica observando o evento serverSelect ser acionado e recebe o dados do servidor passado */
     created () {
       serverBus.$on('serverSelected', (server) => {
         this.server = server
