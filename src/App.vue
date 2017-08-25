@@ -3,8 +3,11 @@
     <app-header></app-header>
     <hr>
     <div class="row">
-      <servers></servers>
-      <app-server-details></app-server-details>
+      <button @click="selectedComponent='quote'">Quote</button>
+      <button @click="selectedComponent='new'">New</button>
+      <button @click="selectedComponent='autor'">Autor</button>
+      <p>{{selectedComponent}}</p>
+      <component :is="selectedComponent"></component>
     </div>
     <hr>
     <app-footer></app-footer>
@@ -30,13 +33,16 @@ import Servers from './components/Server/Servers.vue'
 import ServerDetails from './components/Server/ServerDetails.vue'
 import User from './components/user/User.vue'
 import Quote from './components/quotes/Quote.vue'
+import New from './components/quotes/New.vue'
+import Autor from './components/quotes/Autor.vue'
 
 export default {
   data: function () {
-      return {
-        titulo: 'Titulo',
-        subtitulo: 'SubTitulo'
-      }
+    return {
+      titulo: 'Titulo',
+      subtitulo: 'SubTitulo',
+      selectedComponent: 'quote'
+    }
   },
   components: {
     appHeader: Header,
@@ -44,7 +50,9 @@ export default {
     User,
     'app-server-details': ServerDetails,
     'app-footer': Footer,
-    Quote
+    Quote,
+    New,
+    Autor
   }
 }
 </script>
