@@ -15,19 +15,19 @@
 </template>
 
 <script>
-    import UserDetail from './UserDetail.vue';
-    import UserEdit from './UserEdit.vue';
+import UserDetail from './UserDetail.vue'
+import UserEdit from './UserEdit.vue'
 
-    export default {
-        components: {
-            appUserDetail: UserDetail,
-            appUserEdit: UserEdit
-        }
+export default {
+    components: {
+        appUserDetail: UserDetail,
+        appUserEdit: UserEdit
     }
+}
 </script>
 
 <style scoped>
-    div {
-        background-color: lightblue;
-    }
+div {
+    background-color: lightblue;
+}
 </style>
