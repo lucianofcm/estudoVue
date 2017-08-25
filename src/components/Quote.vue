@@ -1,11 +1,12 @@
 <template>
     <div>
         <div class="title">
-            <slot name="teste"></slot>
+            <slot name="title"></slot>
+            <span style="color: #ccc"><slot name="subtitle">Subtitulo</slot></span>
         </div>
 
         <div>
-            <slot name="teste2"></slot>
+            <slot></slot>
         </div>
 
     </div>

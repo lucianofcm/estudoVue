@@ -12,8 +12,9 @@
       <div class="row">
         <div class="col-xs-12">
           <quote>
-            <h2 slot="teste"> Slot 1</h2>
-            <p slot="teste2">Slot2</p>
+            <h2 slot="title">{{titulo}}</h2>
+            <h3 slot="subtitle">{{subtitulo}}</h3>
+            <p>Slot default</p>
           </quote>
         </div>
       </div>
@@ -32,7 +33,10 @@ import Quote from './components/Quote.vue'
 
 export default {
   data: function () {
-
+      return {
+        titulo: 'Titulo',
+        subtitulo: 'SubTitulo'
+      }
   },
   components: {
     appHeader: Header,
