@@ -29,7 +29,7 @@ import Footer from './components/Shared/Footer.vue'
 import Servers from './components/Server/Servers.vue'
 import ServerDetails from './components/Server/ServerDetails.vue'
 import User from './components/user/User.vue'
-import Quote from './components/Quote.vue'
+import Quote from './components/quotes/Quote.vue'
 
 export default {
   data: function () {
