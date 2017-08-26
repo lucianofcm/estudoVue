@@ -1,30 +1,29 @@
 <template>
-    <div>
-
-    </div>
+  <div>
+    <h1>Autor</h1>
+  </div>
 </template>
 
 <script>
-export default {
-}
+  export default {}
 
 </script>
-<style scoped >
-div {
+<style scoped>
+  div {
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px black;
     padding: 30px;
     margin: 30px auto;
     text-align: center;
-}
+  }
 
-h2 {
+  h1 {
     color: red;
-}
+  }
 
-title {
+  title {
     font-size: 100px;
     font-style: italic;
-}
+  }
 </style>
 
