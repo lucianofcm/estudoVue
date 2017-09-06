@@ -1,0 +1,24 @@
+[debug] [2017-09-06T18:14:17.297Z] ----------------------------------------------------------------------
+[debug] [2017-09-06T18:14:17.301Z] Command:       /usr/bin/nodejs /home/luciano/.npm-global/bin/firebase deploy --debug
+[debug] [2017-09-06T18:14:17.302Z] CLI Version:   3.10.0
+[debug] [2017-09-06T18:14:17.302Z] Platform:      linux
+[debug] [2017-09-06T18:14:17.302Z] Node Version:  v6.3.1
+[debug] [2017-09-06T18:14:17.302Z] Time:          Wed Sep 06 2017 15:14:17 GMT-0300 (-03)
+[debug] [2017-09-06T18:14:17.302Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-06T18:14:17.314Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-06T18:14:17.314Z] > authorizing via signed-in user
+[debug] [2017-09-06T18:14:17.316Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-06T18:14:17.317Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/_USyBFVN3o8XvhEHTYrLJ3A2D4nMS_xmOebxJtBgBng',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Sep 06 2017 15:14:17 GMT-0300 (-03)
+[debug] [2017-09-06T18:14:17.678Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-06T18:14:17.689Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/estudovue  
+ Wed Sep 06 2017 15:14:17 GMT-0300 (-03)
+[debug] [2017-09-06T18:14:18.824Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-06T18:14:18.825Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/estudovue/tokens  
+ Wed Sep 06 2017 15:14:18 GMT-0300 (-03)
+[debug] [2017-09-06T18:14:19.719Z] <<< HTTP RESPONSE 200
